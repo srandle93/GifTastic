@@ -7,26 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href=assets/css/style.css>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     
 </head>
 <body>
     <!-- Insert game button here. -->
     <div id="gamingButtons">
-        <button data-game="double-dutch"></button>
-        <button data-game="dominos"></button>
-        <button data-game="jax"></button>
-        <button data-game="dodge ball"></button>
-        <button data-game="hockey"></button>
-        <button data-game="four square"></button>
-        <button data-game="spades"></button>
+        <button class="game" data-game="double-dutch"> Double Dutch</button>
+        <button class="game" data-game="dominos"> Dominos </button>
+        <button class="game" data-game="tic tac toe"> Tic Tac Toe </button>
+        <button class="game" data-game="dodge ball"> Dodge Ball</button>
+        <button class="game" data-game="go fish"> Go Fish </button>
+        <button class="game" data-game="four square"> Four Square</button>
+        <button class="game" data-game="spades"> Spades </button>
     </div>
     <br>
     <!-- Button to add game to gamingButtons and text form here. -->
     <form id="game-form">
         <button id="create-button"for="gaming-input">Add Game Here</button>
         <input type="text" id="gaming-input">
-        <input id="addGame" type="games" value="games">
+        <!-- <input id="addGame" type="games" value="games"> -->
     </form>
     <!-- Insert gifs here. -->
     <div id="games">
