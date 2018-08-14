@@ -21,7 +21,7 @@ $("#create-button").on("click", function(event) {
 
 });
 
-$('.game').on('click', function( event ) {
+$(document).on('click', ".game", function( event ) {
     var topics = $(this).attr("data-game");
 
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
